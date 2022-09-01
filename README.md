@@ -2,10 +2,9 @@
 
 ## portfolio url:
 
-- https://c-0000.wtb.cfbx.jp/
-- https://css-md-0000.wtb.cfbx.jp/
+- https://c-0097.wtb.cfbx.jp/
 
 ## 更新履歴
 
-- 2022/mm/dd 初版 作成完了
-
+- 2022/9/1 初版
+- 2022/9/2 完成

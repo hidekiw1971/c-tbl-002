@@ -1,7 +1,5 @@
 @use "global" as *;
-.yyy {
+.vertical-table__body {
   @include mq(md) {
-  }
-  @include mq(xl) {
   }
 }

@@ -1,0 +1,19 @@
+@use "global" as *;
+.vertical-table__header {
+  padding: rem(15);
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+  vertical-align: middle;
+  // responsive ajust
+  white-space: nowrap;
+  @include mq(md) {
+  }
+}
+
+.vertical-table__header:last-child {
+  border-right-width: rem(1);
+  @include mq(md) {
+    border-right-width: 0;
+  }
+}

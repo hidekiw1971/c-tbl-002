@@ -1,0 +1,11 @@
+@use "global" as *;
+.vertical-table__body-row {
+  @include mq(md) {
+  }
+}
+
+.vertical-table__body-row:last-child .vertical-table__text {
+  border-bottom-width: 0;
+  @include mq(md) {
+  }
+}

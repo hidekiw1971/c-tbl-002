@@ -1,0 +1,8 @@
+@use "global" as *;
+.vertical-table {
+  border: 1px solid #ddd;
+  border-right-width: 0;
+  overflow: auto;
+  @include mq(md) {
+  }
+}

@@ -1,7 +1,5 @@
 @use "global" as *;
-.xxx {
+.vertical-table__headers {
   @include mq(md) {
-  }
-  @include mq(xl) {
   }
 }
