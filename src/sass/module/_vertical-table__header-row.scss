@@ -1,0 +1,6 @@
+@use "global" as *;
+.vertical-table__header-row {
+  background-color: #efefef;
+  @include mq(md) {
+  }
+}

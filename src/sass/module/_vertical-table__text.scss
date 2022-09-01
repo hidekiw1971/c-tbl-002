@@ -1,0 +1,18 @@
+@use "global" as *;
+.vertical-table__text {
+  padding: rem(15);
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  vertical-align: middle;
+  // responsive ajust
+  white-space: nowrap;
+  @include mq(md) {
+  }
+}
+
+.vertical-table__text:last-child {
+  border-right-width: rem(1);
+  @include mq(md) {
+    border-right-width: 0;
+  }
+}
